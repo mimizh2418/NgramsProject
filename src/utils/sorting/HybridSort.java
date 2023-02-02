@@ -1,8 +1,8 @@
-package sorting;
+package utils.sorting;
 
 import java.util.List;
 
-/** This class is an implementation of a hybrid sorting algorithm:
+/** This class is an implementation of a hybrid utils.sorting algorithm:
  * this is a recursive divide-and-conquer algorithm that performs
  * {@link QuickSort} on longer lists ({@code size > 17}) and uses
  * insertion sort otherwise.
