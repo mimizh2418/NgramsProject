@@ -50,10 +50,6 @@ public class WordEntry implements Comparable<WordEntry> {
         return nextWords;
     }
 
-    public void addNextWord(String word) {
-        nextWords.recordWord(word);
-    }
-
     @Override
     public int compareTo(WordEntry o) {
         return Integer.compare(freq, o.freq);
@@ -61,7 +57,7 @@ public class WordEntry implements Comparable<WordEntry> {
 
     @Override
     public String toString() {
-        return String.format("%s: %d frequency (%f probability, %f cumulative probability)",
-                word, freq, prob, cumProb);
+        return String.format("%s: %d frequency (%f probability)",
+                word, freq, prob);
     }
 }

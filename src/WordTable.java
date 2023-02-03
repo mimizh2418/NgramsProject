@@ -1,5 +1,5 @@
-import sorting.HybridSort;
-import sorting.SortingAlgorithm;
+import utils.sorting.HybridSort;
+import utils.sorting.SortingAlgorithm;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -39,7 +39,7 @@ public class WordTable {
         return entries.get(word);
     }
 
-    public void processEntries() {
+    private void processEntries() {
         SortingAlgorithm sorter = new HybridSort();
         sorter.sort(processedEntries);
         double currentCumulative = 0;
@@ -58,7 +58,7 @@ public class WordTable {
         for (WordEntry entry : processedEntries) {
             if (entry.getCumulativeProbability() >= randNum) return entry;
         }
-        throw new IllegalStateException("did not find word entry with cumulative probability less than " + randNum);
+        return null;
     }
 
     public void displayCommonWords(int numWords) {
@@ -67,7 +67,7 @@ public class WordTable {
 
     private void displayCommonWords(int depth, int numWords) {
         if (!areEntriesProcessed) processEntries();
-        for (int i = processedEntries.size() - 1; i >= processedEntries.size() - numWords; i--) {
+        for (int i = processedEntries.size() - 1; i >= processedEntries.size() - numWords && i >= 0; i--) {
             System.out.println("\t".repeat(depth) + processedEntries.get(i));
             if (processedEntries.get(i).getNextWords().getNumWords() > 0) {
                 processedEntries.get(i).getNextWords().displayCommonWords(depth + 1, numWords);

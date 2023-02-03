@@ -4,6 +4,30 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/36" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/37" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/38" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/39" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/40" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/41" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/42" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/43" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/44" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/45" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/46" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/47" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/48" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/49" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/50" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/51" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/52" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/53" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/54" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/slate/55" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/journal/verbatim" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/letters" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles" />
+      <excludeFolder url="file://$MODULE_DIR$/textfiles/written/fiction" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
